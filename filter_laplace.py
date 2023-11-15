@@ -1,8 +1,12 @@
 from PIL import Image, ImageFilter
 import cv2
- 
-tamaño = (5,5)
-coeficientes = [0, 0, -1, 0, 0, 0, -1, -2, -1, 0, -1, -2, 16, -2, -1, 0, -1, -2, -1, 0, 0, 0, -1, 0, 0]
+
+#Kernel
+#tamaño = (5,5)
+#coeficientes = [0, 0, -1, 0, 0, 0, -1, -2, -1, 0, -1, -2, 16, -2, -1, 0, -1, -2, -1, 0, 0, 0, -1, 0, 0]
+#Otro kernel para probar
+tamaño = (3,3)
+coeficientes = [0, -1, 0, -1, 4, -1, 0, -1, 0]
  
 factor = 1
  
